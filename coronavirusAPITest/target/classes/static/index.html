@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="js/app.js"></script>
+    <script src="js/api.js"></script>
+    <script src="/webjars/jquery/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Title</title>
+</head>
+<body onload="app.GetCountries()">
+    <h1>Covid-19 Coronavirus ARSW</h1>
+    <div class="table_countries">
+        <table id="countries">
+            <thead>
+                <tr style="background-color: rgb(49, 45, 45);">
+                    <th>Counrtry</th>
+                    <th>Num deaths</th>
+                    <th>Num Infected</th>
+                    <th>Num Cured</th> 
+                </tr>
+            </thead>
+            <!-- <tbody>
+                <tr style="border-radius: 20px;">
+                    <th><button>Counrtry</button></th>
+                    <th>N</th>
+                    <th>N</th>
+                    <th>N</th> 
+                </tr>
+            </tbody> -->
+        </table>
+    </div>
+
+    <h2 id="provinces-name" style="padding: 10px; height: 40px; border-radius: 30px; background-color: rgba(248, 213, 213, 0.774); font-size: 30px;"></h2>
+    <div class="container-provinces">
+        <div class="maps">
+
+        </div>
+        <nav>
+            <li id="provinces-deaths">Num Deaths:</li>
+            <li id="provinces-infec">Num infected:</li>
+            <li id="provinces-cured">Num Cured:</li>
+        </nav>
+        <div class="provinces">
+            <table id="provinces">
+                <thead>
+                    <tr style="background-color: rgb(49, 45, 45);">
+                        <th>Counrtry</th>
+                        <th>Num deaths</th>
+                        <th>Num Infected</th>
+                        <th>Num Cured</th> 
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="border-radius: 20px;">
+                        <th>Counrtry</th>
+                        <th>Num deaths</th>
+                        <th>Num Infected</th>
+                        <th>Num Cured</th> 
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+.table_countries{
+    display: inline-block;
+    height: 400px;
+    width: 90%;
+    margin: 50px;
+    overflow: auto;
+    /* border: 1px solid black; */
+    /* background-color: rgb(101, 114, 110); */
+    /* background-color: black; */
+}
+
+.table_countries table{
+    width: 100%;
+}
+
+
+.table_countries tr{
+    display: flex;
+    padding: 10px;
+    margin-top: 0.5%;
+    flex-wrap: wrap;
+    background-color: rgba(190, 189, 189, 0.685); 
+}
+
+.table_countries th{
+    margin-left: 100px;
+    color: rgba(245, 245, 245, 0.979);
+    font-size: 30px;
+}
+
+.table_countries button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.table_countries button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.39);
+}
+
+.container-provinces{
+    display: grid;
+    margin: 50px;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: 80%;
+    gap: 10px;
+}
+
+.container-provinces nav{
+    /* background-color: rgba(92, 86, 86, 0.089); */
+    display: flex;
+    flex-direction:column ;
+}
+
+.container-provinces li{
+    display: inline-block;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgba(68, 68, 66, 0.137);
+    color: rgb(99, 96, 96);
+    font-size: 28px;
+    margin-top: 5%;
+    margin-left: 10%;
+
+}
+
+.provinces{
+    grid-column: 1/3;
+    display: inline-block;
+    height: 300px;
+    width: 100%;
+    overflow: auto;
+}
+
+.provinces table{
+    width: 100%;
+}
+
+.provinces tr{
+    display: flex;
+    padding: 10px;
+    margin-top: 0.5%;
+    background-color: rgba(190, 189, 189, 0.685); 
+
+}
+
+.provinces th{
+    margin-left: 10%;
+    color: rgba(245, 245, 245, 0.979);
+    font-size: 30px;
+}

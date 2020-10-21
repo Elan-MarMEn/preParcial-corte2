@@ -1,0 +1,5 @@
+coronavirusAPITest\service\coronavirusServicesInterface.class
+coronavirusAPITest\service\coronavirusServices.class
+coronavirusAPITest\httpConection\connectionHttpInterface.class
+coronavirusAPITest\controllers\coronavirusServicesAPIController.class
+coronavirusAPITest\CoronaAPIApplication.class
